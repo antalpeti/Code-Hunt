@@ -1,6 +1,7 @@
 package codehunt.sector02;
 
 public class Sector02 {
+
     /**
      * Array with ascending order.
      * @param n

@@ -1,6 +1,7 @@
 package codehunt.sector01;
 
 public class Sector01 {
+
     /**
      * Input value negate.
      * @param x
