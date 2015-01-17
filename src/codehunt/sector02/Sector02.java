@@ -1,10 +1,9 @@
 package codehunt.sector02;
 
 public class Sector02 {
-
   /**
    * Array with ascending order.
-   * 
+   *
    * @param n
    * @return
    */
@@ -18,7 +17,7 @@ public class Sector02 {
 
   /**
    * Array with ascending order. Every value multiplied by the input value.
-   * 
+   *
    * @param n
    * @return
    */
@@ -32,7 +31,7 @@ public class Sector02 {
 
   /**
    * Array of squares.
-   * 
+   *
    * @param n
    * @return
    */
@@ -46,7 +45,7 @@ public class Sector02 {
 
   /**
    * Sum of values or the input array.
-   * 
+   *
    * @param v
    * @return
    */
@@ -60,7 +59,7 @@ public class Sector02 {
 
   /**
    * Square pyramidal number. Or in other words sum the squares from 1 to input value.
-   * 
+   *
    * @param n
    * @return
    */
@@ -74,7 +73,7 @@ public class Sector02 {
 
   /**
    * Count the numbers of 'a' character in the input string.
-   * 
+   *
    * @param s
    * @return
    */
@@ -85,7 +84,7 @@ public class Sector02 {
 
   /**
    * Count the number of input character int the input string.
-   * 
+   *
    * @param s
    * @param x
    * @return

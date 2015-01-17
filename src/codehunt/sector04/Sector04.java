@@ -1,10 +1,9 @@
 package codehunt.sector04;
 
 public class Sector04 {
-
   /**
    * Logical expression: x or y
-   * 
+   *
    * @param x
    * @param y
    * @return
@@ -15,7 +14,7 @@ public class Sector04 {
 
   /**
    * Logical expression: x and y
-   * 
+   *
    * @param x
    * @param y
    * @return
@@ -26,7 +25,7 @@ public class Sector04 {
 
   /**
    * Is x smaller than 50?
-   * 
+   *
    * @param x
    * @return
    */
@@ -36,7 +35,7 @@ public class Sector04 {
 
   /**
    * Is x smaller than y?
-   * 
+   *
    * @param x
    * @param y
    * @return
@@ -47,7 +46,7 @@ public class Sector04 {
 
   /**
    * Signum of the input number.
-   * 
+   *
    * @param i
    * @return
    */
@@ -60,7 +59,7 @@ public class Sector04 {
 
   /**
    * Is i bigger than j?
-   * 
+   *
    * @param i
    * @param j
    * @return
@@ -71,7 +70,7 @@ public class Sector04 {
 
   /**
    * If i is bigger than 99 then return 3, in other cases return 2.
-   * 
+   *
    * @param i
    * @return
    */
@@ -81,7 +80,7 @@ public class Sector04 {
 
   /**
    * Is i is even or odd number?
-   * 
+   *
    * @param i
    * @return
    */
@@ -91,7 +90,7 @@ public class Sector04 {
 
   /**
    * Is i is a multiple of 5?
-   * 
+   *
    * @param i
    * @return
    */
@@ -101,7 +100,7 @@ public class Sector04 {
 
   /**
    * Is i input value is multiple of x input value?
-   * 
+   *
    * @param i
    * @param x
    * @return
@@ -113,7 +112,7 @@ public class Sector04 {
   /**
    * i input value is power of j input value with j input value base in case of k input value is
    * equal to 1?
-   * 
+   *
    * @param i
    * @param j
    * @param k
@@ -125,7 +124,7 @@ public class Sector04 {
 
   /**
    * Return 0, 7, or 21 depending on the input number.
-   * 
+   *
    * @param i
    * @return
    */

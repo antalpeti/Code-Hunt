@@ -1,10 +1,9 @@
 package codehunt.sector00;
 
 public class Sector00 {
-
   /**
    * Negate input value.
-   * 
+   *
    * @param x
    * @return
    */
@@ -14,7 +13,7 @@ public class Sector00 {
 
   /**
    * Input value add by 1 or increment with 1.
-   * 
+   *
    * @param x
    * @return
    */
@@ -25,7 +24,7 @@ public class Sector00 {
 
   /**
    * Input value multiply by 2 .
-   * 
+   *
    * @param x
    * @return
    */
@@ -35,7 +34,7 @@ public class Sector00 {
 
   /**
    * Inputs sum.
-   * 
+   *
    * @param x
    * @param y
    * @return

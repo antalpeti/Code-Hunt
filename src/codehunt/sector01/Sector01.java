@@ -1,10 +1,9 @@
 package codehunt.sector01;
 
 public class Sector01 {
-
   /**
    * Input value negate.
-   * 
+   *
    * @param x
    * @return
    */
@@ -14,7 +13,7 @@ public class Sector01 {
 
   /**
    * Input value subtract by 2.
-   * 
+   *
    * @param x
    * @return
    */
@@ -24,7 +23,7 @@ public class Sector01 {
 
   /**
    * Square input value.
-   * 
+   *
    * @param x
    * @return
    */
@@ -34,7 +33,7 @@ public class Sector01 {
 
   /**
    * Input value multiply by 3.
-   * 
+   *
    * @param x
    * @return
    */
@@ -44,7 +43,7 @@ public class Sector01 {
 
   /**
    * Input value divide by 3.
-   * 
+   *
    * @param x
    * @return
    */
@@ -54,7 +53,7 @@ public class Sector01 {
 
   /**
    * 4 divide by input value.
-   * 
+   *
    * @param x
    * @return
    */
@@ -64,7 +63,7 @@ public class Sector01 {
 
   /**
    * First input value subtract by second input value.
-   * 
+   *
    * @param x
    * @param y
    * @return
@@ -75,7 +74,7 @@ public class Sector01 {
 
   /**
    * Second input value multiply by 2 and add to first input value.
-   * 
+   *
    * @param x
    * @param y
    * @return
@@ -86,7 +85,7 @@ public class Sector01 {
 
   /**
    * First input value multiply by second input value.
-   * 
+   *
    * @param x
    * @param y
    * @return
@@ -97,7 +96,7 @@ public class Sector01 {
 
   /**
    * Second input value divide by 3 and add to first input value.
-   * 
+   *
    * @param x
    * @param y
    * @return
@@ -108,7 +107,7 @@ public class Sector01 {
 
   /**
    * First input value divide by second input value.
-   * 
+   *
    * @param x
    * @param y
    * @return
@@ -119,7 +118,7 @@ public class Sector01 {
 
   /**
    * Input value modulo 3.
-   * 
+   *
    * @param x
    * @return
    */
@@ -129,7 +128,7 @@ public class Sector01 {
 
   /**
    * Input value module 3 and add to 1.
-   * 
+   *
    * @param x
    * @return
    */
@@ -139,7 +138,7 @@ public class Sector01 {
 
   /**
    * Input value add to 10 then the sum modulo input value.
-   * 
+   *
    * @param x
    * @return
    */
@@ -153,7 +152,7 @@ public class Sector01 {
 
   /**
    * Sum input values then divide by 3.
-   * 
+   *
    * @param x
    * @param y
    * @param z

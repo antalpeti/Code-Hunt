@@ -1,11 +1,10 @@
 package codehunt.sector03;
 
 public class Sector03 {
-
   /**
    * <i>Powers of the input value</i><br>
    * The input value to the (power) th power.
-   * 
+   *
    * @param number
    * @param power
    * @return
@@ -21,7 +20,7 @@ public class Sector03 {
 
   /**
    * Factorial of the input value.
-   * 
+   *
    * @param i
    * @return
    */
@@ -35,7 +34,7 @@ public class Sector03 {
 
   /**
    * Multiply the numbers by each other from lowerBound to upperBound.
-   * 
+   *
    * @param lowerBound
    * @param upperBound
    * @return
@@ -50,7 +49,7 @@ public class Sector03 {
 
   /**
    * Sum even numbers from 0 to n - 1.
-   * 
+   *
    * @param n
    * @return
    */
@@ -64,7 +63,7 @@ public class Sector03 {
 
   /**
    * Sum every even * even or every odd * odd numbers. In case of upperdBound is even or odd.
-   * 
+   *
    * @param upperBound
    * @return
    */
@@ -80,7 +79,7 @@ public class Sector03 {
   /**
    * Replace every character to underline character with a space. Except the end of the word will be
    * no space.
-   * 
+   *
    * @param word
    * @return
    */
@@ -90,7 +89,7 @@ public class Sector03 {
 
   /**
    * Shift up with 5 spaces every character in the given string.
-   * 
+   *
    * @param s
    * @return
    */
@@ -108,7 +107,7 @@ public class Sector03 {
 
   /**
    * Calculate the length of the given number.
-   * 
+   *
    * @param x
    * @return
    */

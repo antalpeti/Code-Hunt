@@ -6,7 +6,6 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class Sector02Test {
-
   private Sector02 instance;
 
   @Before
