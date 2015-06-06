@@ -18,12 +18,13 @@ import codehunt.sector10.Sector10Test;
 import codehunt.sector11.Sector11Test;
 import codehunt.sector12.Sector12Test;
 import codehunt.sector13.Sector13Test;
+import codehunt.sector14.Sector14Test;
 
 @RunWith(Suite.class)
 @SuiteClasses({Sector00Test.class, Sector01Test.class, Sector02Test.class, Sector03Test.class,
-    Sector04Test.class, Sector05Test.class, Sector06Test.class, Sector07Test.class,
-    Sector08Test.class, Sector09Test.class, Sector10Test.class, Sector11Test.class,
-    Sector12Test.class, Sector13Test.class})
+  Sector04Test.class, Sector05Test.class, Sector06Test.class, Sector07Test.class,
+  Sector08Test.class, Sector09Test.class, Sector10Test.class, Sector11Test.class,
+  Sector12Test.class, Sector13Test.class, Sector14Test.class})
 public class AllTests {
 
 }
