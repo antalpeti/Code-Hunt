@@ -1,6 +1,10 @@
 package codehunt.sector01;
 
+/**
+ * The class Sector01 is contains solution for Sector 01 section.
+ */
 public class Sector01 {
+
   /**
    * Input value negate.
    *

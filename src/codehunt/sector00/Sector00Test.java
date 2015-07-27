@@ -6,7 +6,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 /**
- * The Class Sector00Test is contains tests for Sector 00 section.
+ * The class Sector00Test is contains tests for Sector 00 section.
  */
 public class Sector00Test {
 
