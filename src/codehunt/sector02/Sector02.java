@@ -1,6 +1,10 @@
 package codehunt.sector02;
 
+/**
+ * The class Sector02 is contains solution for Sector 02 section.
+ */
 public class Sector02 {
+
   /**
    * Array with ascending order.
    *
