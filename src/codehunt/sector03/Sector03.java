@@ -1,6 +1,10 @@
 package codehunt.sector03;
 
+/**
+ * The class Sector03 is contains solution for Sector 03 section.
+ */
 public class Sector03 {
+
   /**
    * <i>Powers of the input value</i><br>
    * The input value to the (power) th power.
