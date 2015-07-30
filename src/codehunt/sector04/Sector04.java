@@ -1,6 +1,10 @@
 package codehunt.sector04;
 
+/**
+ * The class Sector04 is contains solution for Sector 04 section.
+ */
 public class Sector04 {
+
   /**
    * Logical expression: x or y
    *
