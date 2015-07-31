@@ -1,6 +1,10 @@
 package codehunt.sector06;
 
+/**
+ * The class Sector06 is contains solution for Sector 06 section.
+ */
 public class Sector06 {
+
   /**
    * Constant false result for every input.
    *
