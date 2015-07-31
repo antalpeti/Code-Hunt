@@ -1,6 +1,10 @@
 package codehunt.sector05;
 
+/**
+ * The class Sector05 is contains solution for Sector 05 section.
+ */
 public class Sector05 {
+
   /**
    * Determine the length of input string.<br>
    * <i>short</i> - less than 4 characters<br>
