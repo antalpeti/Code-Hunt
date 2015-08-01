@@ -1,6 +1,10 @@
 package codehunt.sector07;
 
+/**
+ * The class Sector07 is contains solution for Sector 07 section.
+ */
 public class Sector07 {
+
   /**
    * Concatenate the input strings the following order 231132.
    *
