@@ -1,6 +1,10 @@
 package codehunt.sector09;
 
+/**
+ * The class Sector09 is contains solution for Sector 09 section.
+ */
 public class Sector09 {
+
   /**
    * What is on the input index of the input array?
    *
