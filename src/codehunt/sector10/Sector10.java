@@ -1,6 +1,10 @@
 package codehunt.sector10;
 
+/**
+ * The class Secto10 is contains solution for Sector 10 section.
+ */
 public class Sector10 {
+
   /**
    * What is the element on the i index of row and j index of column?
    *

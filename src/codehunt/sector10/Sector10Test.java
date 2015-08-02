@@ -1,20 +1,35 @@
 package codehunt.sector10;
 
-import org.junit.After;
+import org.junit.AfterClass;
 import org.junit.Assert;
-import org.junit.Before;
+import org.junit.BeforeClass;
 import org.junit.Test;
 
+/**
+ * The class Sector10Test is contains tests for Sector 10 section.
+ */
 public class Sector10Test {
-  private Sector10 instance;
 
-  @Before
-  public void setUp() throws Exception {
+  /** The instance variable to test the not static methods. */
+  private static Sector10 instance;
+
+  /**
+   * Setup before the tests start.
+   *
+   * @throws Exception the exception if something go wrong
+   */
+  @BeforeClass
+  public static void setUpBeforeClass() throws Exception {
     instance = new Sector10();
   }
 
-  @After
-  public void tearDown() throws Exception {
+  /**
+   * Tear down after the tests finish.
+   *
+   * @throws Exception the exception if something go wrong
+   */
+  @AfterClass
+  public static void tearDownAfterClass() throws Exception {
     instance = null;
   }
 
@@ -89,11 +104,11 @@ public class Sector10Test {
     Assert.assertEquals(1, instance.captureCodeFragment05(new int[][] { {2, 3}, {3, 1}}, 2));
     Assert.assertEquals(5, instance.captureCodeFragment05(new int[][] { {0, 0, 0}, {0, 0}}, 0));
     Assert
-    .assertEquals(3, instance.captureCodeFragment05(new int[][] { {1, 2, 3}, {1, 2}, {1}}, 1));
+        .assertEquals(3, instance.captureCodeFragment05(new int[][] { {1, 2, 3}, {1, 2}, {1}}, 1));
     Assert
-        .assertEquals(2, instance.captureCodeFragment05(new int[][] { {1, 2, 3}, {1, 2}, {1}}, 2));
+    .assertEquals(2, instance.captureCodeFragment05(new int[][] { {1, 2, 3}, {1, 2}, {1}}, 2));
     Assert
-        .assertEquals(1, instance.captureCodeFragment05(new int[][] { {1, 2, 3}, {1, 2}, {1}}, 3));
+    .assertEquals(1, instance.captureCodeFragment05(new int[][] { {1, 2, 3}, {1, 2}, {1}}, 3));
     Assert.assertEquals(1,
         instance.captureCodeFragment05(new int[][] { {1, 2, 3}, {2, 3, 4}, {3, 4, 5}}, 1));
     Assert.assertEquals(2,
@@ -153,9 +168,9 @@ public class Sector10Test {
     Assert.assertEquals(1, instance.captureCodeFragment08(new int[][] {{1}}));
     Assert.assertEquals(1586, instance.captureCodeFragment08(new int[][] { {816, 990}, {770, 33}}));
     Assert
-    .assertEquals(1791, instance.captureCodeFragment08(new int[][] { {816, 990}, {770, 801}}));
+        .assertEquals(1791, instance.captureCodeFragment08(new int[][] { {816, 990}, {770, 801}}));
     Assert.assertEquals(3, instance.captureCodeFragment08(new int[][] { {1, 2}, {2, 1}}));
     Assert
-    .assertEquals(15, instance.captureCodeFragment08(new int[][] { {1, 2}, {2, 1}, {11, 12}}));
+        .assertEquals(15, instance.captureCodeFragment08(new int[][] { {1, 2}, {2, 1}, {11, 12}}));
   }
 }
