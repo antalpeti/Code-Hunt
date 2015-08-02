@@ -1,6 +1,10 @@
 package codehunt.sector08;
 
+/**
+ * The class Sector08 is contains solution for Sector 08 section.
+ */
 public class Sector08 {
+
   /**
    * Sum every factorial between i and j.
    *

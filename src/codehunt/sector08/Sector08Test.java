@@ -1,20 +1,35 @@
 package codehunt.sector08;
 
-import org.junit.After;
+import org.junit.AfterClass;
 import org.junit.Assert;
-import org.junit.Before;
+import org.junit.BeforeClass;
 import org.junit.Test;
 
+/**
+ * The class Sector08Test is contains tests for Sector 08 section.
+ */
 public class Sector08Test {
-  private Sector08 instance;
 
-  @Before
-  public void setUp() throws Exception {
+  /** The instance variable to test the not static methods. */
+  private static Sector08 instance;
+
+  /**
+   * Setup before the tests start.
+   *
+   * @throws Exception the exception if something go wrong
+   */
+  @BeforeClass
+  public static void setUpBeforeClass() throws Exception {
     instance = new Sector08();
   }
 
-  @After
-  public void tearDown() throws Exception {
+  /**
+   * Tear down after the tests finish.
+   *
+   * @throws Exception the exception if something go wrong
+   */
+  @AfterClass
+  public static void tearDownAfterClass() throws Exception {
     instance = null;
   }
 
@@ -189,13 +204,13 @@ public class Sector08Test {
         "1 22 333 4444 55555 666666 7777777 88888888 7777777 666666 55555 4444 333 22 1",
         instance.captureCodeFragment08(8));
     Assert
-    .assertEquals(
-        "1 22 333 4444 55555 666666 7777777 88888888 999999999 88888888 7777777 666666 55555 4444 333 22 1",
-        instance.captureCodeFragment08(9));
+        .assertEquals(
+            "1 22 333 4444 55555 666666 7777777 88888888 999999999 88888888 7777777 666666 55555 4444 333 22 1",
+            instance.captureCodeFragment08(9));
     Assert
-    .assertEquals(
-        "1 22 333 4444 55555 666666 7777777 88888888 999999999 999999999 88888888 7777777 666666 55555 4444 333 22 1",
-        instance.captureCodeFragment08(10));
+        .assertEquals(
+            "1 22 333 4444 55555 666666 7777777 88888888 999999999 999999999 88888888 7777777 666666 55555 4444 333 22 1",
+            instance.captureCodeFragment08(10));
     Assert.assertEquals("1 22 333 4444 55555 666666 7777777 88888888 999999999 "
         + "1111111111111111111111 " + "999999999 88888888 7777777 666666 55555 4444 333 22 1",
         instance.captureCodeFragment08(11));
