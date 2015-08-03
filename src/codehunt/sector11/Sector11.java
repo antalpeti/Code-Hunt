@@ -1,6 +1,10 @@
 package codehunt.sector11;
 
+/**
+ * The class Secto11 is contains solution for Sector 11 section.
+ */
 public class Sector11 {
+
   /**
    * Calculate the difference of all appropriate element of the two input arrays. So take the
    * difference of two elements on the same index position. If there is no other element so one of
