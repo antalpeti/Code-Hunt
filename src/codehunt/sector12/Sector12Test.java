@@ -1,20 +1,35 @@
 package codehunt.sector12;
 
-import org.junit.After;
+import org.junit.AfterClass;
 import org.junit.Assert;
-import org.junit.Before;
+import org.junit.BeforeClass;
 import org.junit.Test;
 
+/**
+ * The class Sector12Test is contains tests for Sector 12 section.
+ */
 public class Sector12Test {
-  private Sector12 instance;
 
-  @Before
-  public void setUp() throws Exception {
+  /** The instance variable to test the not static methods. */
+  private static Sector12 instance;
+
+  /**
+   * Setup before the tests start.
+   *
+   * @throws Exception the exception if something go wrong
+   */
+  @BeforeClass
+  public static void setUpBeforeClass() throws Exception {
     instance = new Sector12();
   }
 
-  @After
-  public void tearDown() throws Exception {
+  /**
+   * Tear down after the tests finish.
+   *
+   * @throws Exception the exception if something go wrong
+   */
+  @AfterClass
+  public static void tearDownAfterClass() throws Exception {
     instance = null;
   }
 
@@ -173,9 +188,9 @@ public class Sector12Test {
     Assert.assertArrayEquals(new int[][] {{0, 2}},
         instance.captureCodeFragment07(new int[] {1, 2, 1}, 2));
     Assert
-        .assertArrayEquals(new int[][] {}, instance.captureCodeFragment07(new int[] {1, 2, 1}, 4));
+    .assertArrayEquals(new int[][] {}, instance.captureCodeFragment07(new int[] {1, 2, 1}, 4));
     Assert
-        .assertArrayEquals(new int[][] {}, instance.captureCodeFragment07(new int[] {1, 2, 1}, 1));
+    .assertArrayEquals(new int[][] {}, instance.captureCodeFragment07(new int[] {1, 2, 1}, 1));
     Assert.assertArrayEquals(new int[][] {},
         instance.captureCodeFragment07(new int[] {1, 2, 1, 2}, 0));
     Assert.assertArrayEquals(new int[][] {},
@@ -241,9 +256,9 @@ public class Sector12Test {
     Assert.assertEquals(-1,
         instance.captureCodeFragment08(new int[] {903, 914, 634, 918, 754, 771, 915}));
     Assert
-        .assertEquals(0, instance.captureCodeFragment08(new int[] {903, 0, 353, 37, 38, 75, 400}));
+    .assertEquals(0, instance.captureCodeFragment08(new int[] {903, 0, 353, 37, 38, 75, 400}));
     Assert
-        .assertEquals(0, instance.captureCodeFragment08(new int[] {903, 0, 353, 37, 38, 75, 400}));
+    .assertEquals(0, instance.captureCodeFragment08(new int[] {903, 0, 353, 37, 38, 75, 400}));
     Assert.assertEquals(2,
         instance.captureCodeFragment08(new int[] {903, 0, 353, 37, 38, 75, 400, 706}));
 
@@ -318,7 +333,7 @@ public class Sector12Test {
     Assert.assertArrayEquals(new int[] {}, instance.captureCodeFragment11(new int[] {}));
     Assert.assertArrayEquals(new int[] {0}, instance.captureCodeFragment11(new int[] {0}));
     Assert
-        .assertArrayEquals(new int[] {1, 512}, instance.captureCodeFragment11(new int[] {512, 1}));
+    .assertArrayEquals(new int[] {1, 512}, instance.captureCodeFragment11(new int[] {512, 1}));
     Assert.assertArrayEquals(new int[] {0, 0}, instance.captureCodeFragment11(new int[] {0, 0}));
     Assert.assertArrayEquals(new int[] {0, 1}, instance.captureCodeFragment11(new int[] {0, 1}));
     Assert.assertArrayEquals(new int[] {1, 1, 512},
@@ -356,7 +371,7 @@ public class Sector12Test {
   public final void testCaptureCodeFragment12() {
     Assert.assertArrayEquals(new String[] {}, instance.captureCodeFragment12(new String[] {}));
     Assert
-        .assertArrayEquals(new String[] {"a"}, instance.captureCodeFragment12(new String[] {"a"}));
+    .assertArrayEquals(new String[] {"a"}, instance.captureCodeFragment12(new String[] {"a"}));
     Assert.assertArrayEquals(new String[] {"a", "a"},
         instance.captureCodeFragment12(new String[] {"a", "a"}));
     Assert.assertArrayEquals(new String[] {"a", "a", "a"},
@@ -382,10 +397,10 @@ public class Sector12Test {
     Assert.assertArrayEquals(
         new String[] {"a", "a", "a", "a", "a", "aa", "aa", "aa", "aa", "aa", "aa", "aa", "aa",
             "aa", "aa", "aa", "aa"},
-        instance.captureCodeFragment12(new String[] {"a", "a", "a", "a", "a", "aa", "aa", "aa",
-            "aa", "aa", "aa", "aa", "aa", "aa", "aa", "aa", "aa"}));
+            instance.captureCodeFragment12(new String[] {"a", "a", "a", "a", "a", "aa", "aa", "aa",
+                "aa", "aa", "aa", "aa", "aa", "aa", "aa", "aa", "aa"}));
     Assert
-        .assertArrayEquals(new String[] {"1"}, instance.captureCodeFragment12(new String[] {"1"}));
+    .assertArrayEquals(new String[] {"1"}, instance.captureCodeFragment12(new String[] {"1"}));
     Assert.assertArrayEquals(new String[] {"1", "2"},
         instance.captureCodeFragment12(new String[] {"1", "2"}));
     Assert.assertArrayEquals(new String[] {"1", "2"},

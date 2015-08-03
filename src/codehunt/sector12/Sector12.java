@@ -2,7 +2,11 @@ package codehunt.sector12;
 
 import java.util.Arrays;
 
+/**
+ * The class Secto12 is contains solution for Sector 12 section.
+ */
 public class Sector12 {
+
   /**
    * Count the occurrences of input integer value in the input integer array.
    *
