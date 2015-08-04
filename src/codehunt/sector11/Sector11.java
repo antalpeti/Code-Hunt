@@ -1,7 +1,7 @@
 package codehunt.sector11;
 
 /**
- * The class Secto11 is contains solution for Sector 11 section.
+ * The class Sector11 is contains solution for Sector 11 section.
  */
 public class Sector11 {
 

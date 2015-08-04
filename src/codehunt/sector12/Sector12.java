@@ -3,7 +3,7 @@ package codehunt.sector12;
 import java.util.Arrays;
 
 /**
- * The class Secto12 is contains solution for Sector 12 section.
+ * The class Sector12 is contains solution for Sector 12 section.
  */
 public class Sector12 {
 

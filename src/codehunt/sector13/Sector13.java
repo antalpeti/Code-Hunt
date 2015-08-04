@@ -1,6 +1,10 @@
 package codehunt.sector13;
 
+/**
+ * The class Sector13 is contains solution for Sector 13 section.
+ */
 public class Sector13 {
+
   /**
    * Up shift each character of the input string by 7 in the English alphabetic.
    *
