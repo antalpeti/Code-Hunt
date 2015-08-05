@@ -1,6 +1,10 @@
 package codehunt.sector14;
 
+/**
+ * The class Sector14 is contains solution for Sector 14 section.
+ */
 public class Sector14 {
+
   /**
    * Sum the values from 0 to input value. In case of positive the input value is inclusive. In case
    * of negative the input value is exclusive.

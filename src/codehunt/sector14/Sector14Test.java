@@ -1,20 +1,35 @@
 package codehunt.sector14;
 
-import org.junit.After;
+import org.junit.AfterClass;
 import org.junit.Assert;
-import org.junit.Before;
+import org.junit.BeforeClass;
 import org.junit.Test;
 
+/**
+ * The class Sector14Test is contains tests for Sector 14 section.
+ */
 public class Sector14Test {
-  private Sector14 instance;
 
-  @Before
-  public void setUp() throws Exception {
+  /** The instance variable to test the not static methods. */
+  private static Sector14 instance;
+
+  /**
+   * Setup before the tests start.
+   *
+   * @throws Exception the exception if something go wrong
+   */
+  @BeforeClass
+  public static void setUpBeforeClass() throws Exception {
     instance = new Sector14();
   }
 
-  @After
-  public void tearDown() throws Exception {
+  /**
+   * Tear down after the tests finish.
+   *
+   * @throws Exception the exception if something go wrong
+   */
+  @AfterClass
+  public static void tearDownAfterClass() throws Exception {
     instance = null;
   }
 
